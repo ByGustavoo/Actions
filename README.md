@@ -16,7 +16,7 @@
 
  <br> 
 
-🔷 `workflow-V2.yml`, Versão aprimorada que utiliza Secrets do GitHub, cria uma pasta e copia o arquivo properties para conectar ao Banco de Dados, além de gerar o relatório de cobertura de testes do JaCoCo.
+🔷 `workflow-V2.yml`, é executado a cada pull request para validar uma aplicação Spring Boot com Gradle. Ele configura um ambiente com Java 21 e um serviço de PostgreSQL, utilizando secrets do GitHub para definir credenciais e variáveis sensíveis de forma segura. Durante o processo, o código é baixado, o ambiente é preparado com arquivos de configuração necessários, e o projeto é compilado utilizando o Gradle Wrapper. Em seguida, são executados testes automatizados com geração de relatório de cobertura via JaCoCo, garantindo a qualidade do código antes da integração.
 
  <br> 
 
