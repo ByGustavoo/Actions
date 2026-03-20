@@ -5,7 +5,7 @@
  <br> 
  
 <div align="center">
- Arquivos Actions criado para automatizar o GitHub Actions ao subir um commit em um projeto com Spring Boot.
+  Arquivos de GitHub Actions desenvolvidos para automatizar o processo de integração e entrega contínua em um projeto Spring Boot, sendo acionados automaticamente a cada novo commit, garantindo build, testes,       análise de qualidade e publicação da aplicação de forma padronizada e segura.
 </div> 
 
  <br> 
