@@ -1,4 +1,4 @@
-name: Java with Gradle
+name: Build Spring Boot with Gradle
 
 on: 
   pull_request
