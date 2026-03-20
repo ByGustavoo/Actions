@@ -19,6 +19,7 @@
 # 🚀 Workflows 
 
 🔷 `workflow.yml`, é executado a cada pull request para a branch principal, garantindo que a aplicação Spring Boot esteja compilando corretamente antes da integração. Ele realiza o checkout do código, configura o ambiente com Java 25 e prepara o Gradle Wrapper para execução. Em seguida, executa o build do projeto, ignorando os testes, com o objetivo de validar rapidamente a compilação e identificar possíveis erros no código.
+
  <br> 
 
 🔷 `workflow-V2.yml`, é executado a cada pull request para validar uma aplicação Spring Boot com Gradle. Ele configura o ambiente com Java 21 e um PostgreSQL 16 com healthcheck, garantindo que o banco esteja disponível antes da execução, utilizando secrets do GitHub para gerenciar credenciais e arquivos de configuração com segurança.
