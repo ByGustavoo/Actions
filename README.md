@@ -12,7 +12,7 @@
 
 # 🚀 Workflows 
 
-🔷 `workflow.yml`,  Arquivo com configurações básicas para integração com o GitHub Actions em seu projeto Spring Boot com Gradle, garantindo a execução do build da aplicação.
+🔷 `workflow.yml`, é executado automaticamente em toda abertura ou atualização de um pull request. Seu objetivo é garantir que o projeto Java esteja compilando corretamente e que todas as dependências estejam resolvidas antes da integração do código.
 
  <br> 
 
