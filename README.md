@@ -20,7 +20,7 @@
 
  <br> 
 
-🔷 `workflow-sonarcloud.yml`, Configuração avançada que integra o SonarCloud ao seu projeto Spring Boot. Ele faz cache dos pacotes do Gradle e do Sonar, realiza o build da aplicação e executa os testes do Sonar para verificar cobertura de código, duplicações, code smells e possíveis bugs.
+🔷 `workflow-sonarcloud.yml`, é executado em pull requests e push na branch principal para validar uma aplicação Spring Boot com Gradle. Ele configura Java 21 e um serviço de PostgreSQL, utilizando secrets do GitHub para credenciais, arquivos de configuração e autenticação no SonarCloud. A configuração avançada integra o SonarCloud ao projeto, utilizando cache de pacotes do Gradle e do Sonar para otimizar o desempenho, realizando o build da aplicação e executando testes com geração de relatório JaCoCo. Ao final, é feita a análise de qualidade do código, verificando cobertura, duplicações, code smells e possíveis bugs, garantindo maior confiabilidade antes da integração.
 
 <br>
 
