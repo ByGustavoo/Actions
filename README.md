@@ -1,6 +1,12 @@
-# 🔍 Actions
+<div align="center"> <br> 
+  <img align="center" height="150" width="150" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" />
+</div> 
 
-🔷 Arquivos Actions criado para automatizar o GitHub Actions ao subir um commit em um projeto com Spring Boot.
+ <br> 
+ 
+<div align="center">
+ Arquivos Actions criado para automatizar o GitHub Actions ao subir um commit em um projeto com Spring Boot.
+</div> 
 
  <br> 
 
